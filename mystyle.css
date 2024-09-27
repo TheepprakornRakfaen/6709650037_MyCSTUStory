@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url();
+    background-color: black;
+}
+
+header{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:x-large;
+    padding: 30px;
+    color: white;
+    background-color: black;
+}
+
+#img1{
+    height: 100vh;
+    background-color: black;
+    background-image: url(resource/Background/ffd58af549a6d89d5f75ae2be8cadc0b.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    opacity: 50%;
+}
