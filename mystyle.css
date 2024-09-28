@@ -14,11 +14,20 @@ header{
     padding: 30px;
     color: white;
     background-color: black;
+}
 
+
+.header-ul{
+    list-style: none;
+    float: right;
+}
+
+.header-ul-li{
+    display: inline-block;
 }
 
 #img1{
-    height: 100vh;
+    height: 50vh;
     background-color: black;
     background-image: url(resource/Background/ffd58af549a6d89d5f75ae2be8cadc0b.gif);
     background-position: center;
@@ -34,22 +43,22 @@ header{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 140px;
     position: relative;
     font-size: 60px;
 }
 
 /* แถบด้านข้าง */
 nav {
+    float: left;
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(18, 18, 18);
-    padding: 15px;
     text-align: center;
     width: 20%;
     height: 100vh;
-    float: left;
     position: sticky;
     top: 0;
+    overflow: auto;
 }
 
 nav ul {
@@ -73,12 +82,49 @@ nav ul li a {
 }
 
 /* section1 */
+.Topic{
+    font-size: 40px;
+}
 
-.paragraph{
+/* พารากราฟ1 */
+.paragraph1{
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
-    padding: 40px;
     text-align: center;
-    /* width: 80%; */
-    /* display: inline-block; */
+    width: 80%;
+    float: left;
+    padding-top: 20px;
 }
+
+.paragraph1picture{
+    margin:20px;
+    float: left;
+    display: inline;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.paragraph1text{
+    margin:20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.mark-text{
+    font-weight: bold;
+}
+
+.paragraph2picture{
+    clear: both;
+    margin:20px;
+    float: right;
+    display: inline;
+    box-shadow: 5px 5px 5px gray;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+}
+
+
+
