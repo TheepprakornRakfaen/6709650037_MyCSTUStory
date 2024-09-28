@@ -39,6 +39,19 @@ header{
     
 }
 
+#img2{
+    height: 50vh;
+    background-color: black;
+    background-image: url(resource/Background/steamuserimages-a.akamaihd.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    opacity: 60%;
+    
+}
+
 #img1TEXT{
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -84,6 +97,7 @@ nav ul li a {
 /* section1 */
 .Topic{
     font-size: 40px;
+    text-align: center;
 }
 
 /* พารากราฟ1 */
@@ -103,10 +117,11 @@ nav ul li a {
     box-shadow: 5px 5px 5px gray;
 }
 
-.paragraph1text{
+.paragraphtext{
     margin:20px;
     text-align: left;
     font-size: 20px;
+    
 }
 
 .mark-text{
@@ -127,4 +142,26 @@ footer{
 }
 
 
+/* My journey */
 
+.paragraph3{
+    width: 100%;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.paragraph2picture{
+    margin:20px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.paragraph2picturegroup1{
+    float: left;
+}
+
+.paragraph2picturegroup2{
+    float: right;
+}
